@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "acp_database", "acp_database\acp_database.vcxproj", "{E8A2AF94-BABC-4CCC-805A-1491046755F0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "acp_testcase", "acp_testcase\acp_testcase.vcxproj", "{8E3CCF1D-E90F-4E25-A0CC-63A21A3E476B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E8A2AF94-BABC-4CCC-805A-1491046755F0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E8A2AF94-BABC-4CCC-805A-1491046755F0}.Debug|Win32.Build.0 = Debug|Win32
+		{E8A2AF94-BABC-4CCC-805A-1491046755F0}.Release|Win32.ActiveCfg = Release|Win32
+		{E8A2AF94-BABC-4CCC-805A-1491046755F0}.Release|Win32.Build.0 = Release|Win32
+		{8E3CCF1D-E90F-4E25-A0CC-63A21A3E476B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8E3CCF1D-E90F-4E25-A0CC-63A21A3E476B}.Debug|Win32.Build.0 = Debug|Win32
+		{8E3CCF1D-E90F-4E25-A0CC-63A21A3E476B}.Release|Win32.ActiveCfg = Release|Win32
+		{8E3CCF1D-E90F-4E25-A0CC-63A21A3E476B}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
