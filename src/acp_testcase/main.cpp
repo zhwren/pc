@@ -3,7 +3,7 @@
 
 int32 main()
 {
-    AcpDB* acpDb = new AcpDB("..\\..\\data\\db");
+    AcpDB* acpDb = new AcpDB("../../data/db");
     if( acpDb==NULL )
     {
         return 0;

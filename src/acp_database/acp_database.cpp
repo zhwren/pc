@@ -32,7 +32,7 @@ static int32 test(void* data, int argc, char** argv, char** colName)
 int32 AcpDB::GetRecord()
 {
     char* errMsg;
-    string sql = "select CONTENT from DB_PEOTYS where TITLE='ÐÐ¹¬'";
+    string sql = "select CONTENT from DB_PEOTYS";// where TITLE=''";
     int32 rc = sqlite3_exec(db, sql.c_str(), test, 0, &errMsg);
     return rc;
 }
